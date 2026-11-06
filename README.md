@@ -54,16 +54,19 @@ The three base looks compared: `idle` (silent idle clip), `talking` (silent talk
 | `render.py --dry-run` plan, error on unknown clip | tested locally |
 | `kaggle_run.py --dry-run` stages dataset + kernel metadata | tested locally |
 | Notebook JSON valid, all code cells parse | tested locally |
-| MuseTalk install on Kaggle | **not yet run** |
-| Model download (incl. Google Drive file) | **not yet run** |
-| MuseTalk render quality and lip-sync | **not yet run** |
-| Kaggle API upload/run/download | **not yet run** (needs your credentials) |
+| MuseTalk install on Kaggle (T4, torch 2.0.1+cu118, mmcv 2.0.1, mmpose 1.1.0) | **verified 7 Nov 2026** |
+| Model download (4.1 GB, incl. Google Drive file) | **verified 7 Nov 2026** |
+| MuseTalk renders 6 videos, audio/video lengths agree | **verified 7 Nov 2026** (whole notebook about 9 min). Lip-sync quality: judged by eye, see results discussion |
+| Kaggle API upload/run/download | **verified 7 Nov 2026** (kaggle CLI 2.2.5, access-token file) |
 
 ## Troubleshooting
 - **Google Drive "quota exceeded" for the face-parsing file:** download `79999_iter.pth` manually from the link in `docs/LICENSES.md` row 8, add it to your private dataset, and tell the maintainer; the script will be changed to read it from there.
 - **No GPU / "cuda available: False":** notebook settings > Accelerator > GPU.
 - **Internet off:** notebook settings > Internet > On (phone verification needed).
 - Any red error: copy the last 30 lines and send them to whoever maintains this; do not edit the notebook.
+
+## Known harmless message
+The render log may show `Error occurred during processing: ... /v15/idle` once per clip. It comes from MuseTalk's cleanup step after the still-image render has already been written; the video is complete. `render.py` counts the files and reports `6/6 videos copied`.
 
 ## Licences
 Our scripts: MIT (`LICENSE`). MuseTalk and models keep their own licences: see **docs/LICENSES.md** (three helper weights are UNRESOLVED for commercial use).
