@@ -1,0 +1,21 @@
+{
+  "_comment": "Names are the file names inside your PRIVATE input dataset (they are never stored in this repo). A base is the picture/video that gets a new mouth.",
+  "bases": {
+    "idle": "idle.mp4",
+    "talking": "talking.mp4",
+    "still": "examiner-source.jpg"
+  },
+  "audio_extensions": [".mp3", ".wav", ".m4a"],
+  "musetalk": {
+    "version": "v15",
+    "fps_for_still_image": 25,
+    "use_float16": true,
+    "batch_size": 8,
+    "parsing_mode": "jaw",
+    "extra_margin": 10,
+    "left_cheek_width": 90,
+    "right_cheek_width": 90
+  },
+  "poc_clips": ["p1-food-4", "p1-food"],
+  "max_mb_per_clip": 1.5
+}

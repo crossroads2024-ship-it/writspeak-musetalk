@@ -1,0 +1,44 @@
+# PRIVATE ASSETS MUST NEVER BE COMMITTED. This repo is public.
+# Media (portrait, Libby audio, videos, student recordings)
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.aac
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.zip
+*.7z
+# Model weights
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+# Credentials
+kaggle.json
+.kaggle/
+.env
+.env.*
+key*.txt
+*.pem
+*.key
+# Working folders
+private-inputs/
+inputs/
+results/
+out/
+models/
+MuseTalk/
+.work/
+__pycache__/
+*.pyc
