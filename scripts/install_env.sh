@@ -3,7 +3,9 @@
 # Follows the official MuseTalk README: torch 2.0.1+cu118, MMLab packages, pinned requirements.
 # TensorFlow, TensorBoard and Gradio from the upstream requirements.txt are skipped: inference does not import them.
 set -euo pipefail
-WORK="${WORK:-/kaggle/working}"
+# Big files go to /kaggle/temp so they are NOT saved/downloaded as notebook output (only /kaggle/working is).
+WORK="${WORK:-/kaggle/temp}"
+mkdir -p "$WORK"
 ENV="$WORK/mt310"
 PY="$ENV/bin/python"
 

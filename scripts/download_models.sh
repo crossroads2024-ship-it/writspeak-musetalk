@@ -2,7 +2,7 @@
 # Downloads ONLY the weights MuseTalk 1.5 needs for inference. Source of every file is listed in docs/LICENSES.md.
 # Not downloaded on purpose: syncnet (latentsync_syncnet.pt, OpenRAIL++) and MuseTalk 1.0 weights - training/old version only.
 set -euo pipefail
-WORK="${WORK:-/kaggle/working}"
+WORK="${WORK:-/kaggle/temp}"
 cd "$WORK/MuseTalk"
 PY="$WORK/mt310/bin/python"
 HF="$WORK/mt310/bin/huggingface-cli"
@@ -17,7 +17,7 @@ curl -fL https://download.pytorch.org/models/resnet18-5c106cde.pth -o models/fac
 
 # Face-parsing weights (BiSeNet) are published on Google Drive by the face-parsing.PyTorch project.
 # Drive sometimes refuses automated downloads ("quota exceeded"). If this step fails, see README > Troubleshooting.
-"$WORK/mt310/bin/gdown" --id 154JgKpzCPW82qINcVieuPH3fZ2e0P812 -O models/face-parse-bisent/79999_iter.pth
+"$WORK/mt310/bin/gdown" "https://drive.google.com/uc?id=154JgKpzCPW82qINcVieuPH3fZ2e0P812" -O models/face-parse-bisent/79999_iter.pth
 
 # S3FD face detector and FAN landmark weights are fetched by MuseTalk itself at first run (adrianbulat.com, see docs/LICENSES.md).
 for f in models/musetalkV15/unet.pth models/musetalkV15/musetalk.json models/sd-vae/diffusion_pytorch_model.bin \

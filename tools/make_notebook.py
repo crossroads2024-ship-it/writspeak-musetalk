@@ -52,7 +52,7 @@ run('bash /kaggle/working/repo/scripts/install_env.sh', '/kaggle/working/install
     code("run('python /kaggle/working/repo/scripts/render.py --inputs \"%s\" --out /kaggle/working/out' % INPUTS, '/kaggle/working/render.log')"),
     md("## 4. Check the results (file checks + comparison of the three looks)"),
     code("""
-run('/kaggle/working/mt310/bin/python /kaggle/working/repo/scripts/report.py --out /kaggle/working/out --inputs "%s"' % INPUTS, '/kaggle/working/report.log')
+run('/kaggle/temp/mt310/bin/python /kaggle/working/repo/scripts/report.py --out /kaggle/working/out --inputs "%s"' % INPUTS, '/kaggle/working/report.log')
 print(open('/kaggle/working/out/report.md').read())
 """),
     code("""
