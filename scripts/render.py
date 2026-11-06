@@ -94,7 +94,8 @@ def main():
            '--left_cheek_width', str(mt['left_cheek_width']), '--right_cheek_width', str(mt['right_cheek_width'])]
     if mt['use_float16']:
         cmd.append('--use_float16')
-    env = dict(os.environ, PATH=str(Path(a.python).parent) + os.pathsep + os.environ['PATH'])
+    # Kaggle sets MPLBACKEND to a notebook-only value that the MuseTalk environment cannot load; force a plain backend.
+    env = dict(os.environ, PATH=str(Path(a.python).parent) + os.pathsep + os.environ['PATH'], MPLBACKEND='Agg')
     print('running:', ' '.join(cmd))
     r = subprocess.run(cmd, cwd=a.musetalk, env=env)
     if r.returncode != 0:
