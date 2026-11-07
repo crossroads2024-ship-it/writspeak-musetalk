@@ -1,37 +1,0 @@
-Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Downloading 'musetalkV15/unet.pth' to 'models/.cache/huggingface/download/musetalkV15/LoOoXrSKVEItbaPMv3sjRItvIew=.7ebf6c98c181e20838e4c0054e96e944ac60d5d692cc01db42839fe11b787007.incomplete'
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Downloading 'musetalkV15/musetalk.json' to 'models/.cache/huggingface/download/musetalkV15/Qy9txlfbE6_9jp9j0zHgHVupyVE=.b822db87e503a283fbbee73617f89dcd294cb91c.incomplete'
-Download complete. Moving file to models/musetalkV15/musetalk.json
-Fetching 2 files:  50%|█████     | 1/2 [00:00<00:00,  5.09it/s]Download complete. Moving file to models/musetalkV15/unet.pth
-Fetching 2 files: 100%|██████████| 2/2 [00:21<00:00, 12.39s/it]Fetching 2 files: 100%|██████████| 2/2 [00:21<00:00, 10.56s/it]
-/kaggle/temp/MuseTalk/models
-Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Downloading 'diffusion_pytorch_model.bin' to 'models/sd-vae/.cache/huggingface/download/QGKUr3yaD9JD-RaWEuvjvgKhPHs=.1b4889b6b1d4ce7ae320a02dedaeff1780ad77d415ea0d744b476155c6377ddc.incomplete'
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Downloading 'config.json' to 'models/sd-vae/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.0db26717579be63eb0ddbf15b43faa43700dfe5a.incomplete'
-Download complete. Moving file to models/sd-vae/config.json
-Fetching 2 files:  50%|█████     | 1/2 [00:00<00:00,  5.19it/s]Download complete. Moving file to models/sd-vae/diffusion_pytorch_model.bin
-Fetching 2 files: 100%|██████████| 2/2 [00:02<00:00,  1.32s/it]Fetching 2 files: 100%|██████████| 2/2 [00:02<00:00,  1.15s/it]
-/kaggle/temp/MuseTalk/models/sd-vae
-Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Downloading 'pytorch_model.bin' to 'models/whisper/.cache/huggingface/download/Q1p2l2BzM1m6P5jKvr8WTq1TUio=.9607f98a2b22d9e229ae43c52ecea79dcede9e0c5cfae67e8da6eda86d8aac1d.incomplete'
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Download complete. Moving file to models/whisper/pytorch_model.bin
-Downloading 'config.json' to 'models/whisper/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.417aa9de49a132dd3eb6a56d3be2718b15f08917.incomplete'
-Downloading 'preprocessor_config.json' to 'models/whisper/.cache/huggingface/download/PYH5dHjks7Ei0Yd3X0Z8xIwsCNQ=.c2048dfa9fd94a052e62e908d2c4dfb18534b4d2.incomplete'
-Download complete. Moving file to models/whisper/config.json
-Fetching 3 files:  33%|███▎      | 1/3 [00:01<00:03,  1.79s/it]Download complete. Moving file to models/whisper/preprocessor_config.json
-Fetching 3 files: 100%|██████████| 3/3 [00:01<00:00,  1.67it/s]
-/kaggle/temp/MuseTalk/models/whisper
-Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading 'dw-ll_ucoco_384.pth' to 'models/dwpose/.cache/huggingface/download/k-OzMXIWb0U6nYL8JmO35RFCBoQ=.0d9408b13cd863c4e95a149dd31232f88f2a12aa6cf8964ed74d7d97748c7a07.incomplete'
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Download complete. Moving file to models/dwpose/dw-ll_ucoco_384.pth
-Fetching 1 files: 100%|██████████| 1/1 [00:02<00:00,  2.77s/it]Fetching 1 files: 100%|██████████| 1/1 [00:02<00:00,  2.77s/it]
-/kaggle/temp/MuseTalk/models/dwpose
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 44.6M  100 44.6M    0     0   153M      0 --:--:-- --:--:-- --:--:--  153M
-Downloading...
-From: https://drive.google.com/uc?id=154JgKpzCPW82qINcVieuPH3fZ2e0P812
-To: /kaggle/temp/MuseTalk/models/face-parse-bisent/79999_iter.pth
-  0%|          | 0.00/53.3M [00:00<?, ?B/s] 14%|█▍        | 7.34M/53.3M [00:00<00:00, 71.2MB/s] 53%|█████▎    | 28.3M/53.3M [00:00<00:00, 150MB/s]  92%|█████████▏| 49.3M/53.3M [00:00<00:00, 143MB/s]100%|██████████| 53.3M/53.3M [00:00<00:00, 144MB/s]
-MODELS OK
-4.1G	models

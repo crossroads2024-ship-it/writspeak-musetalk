@@ -35,7 +35,12 @@ key*.txt
 # Working folders
 private-inputs/
 inputs/
-results/
+results*/
+*.log
+compare.html
+all77.html
+report.json
+report.md
 out/
 models/
 MuseTalk/
