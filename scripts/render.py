@@ -64,6 +64,12 @@ def main():
 
     cfg = json.loads(Path(a.config).read_text(encoding='utf-8'))
     inputs, out = Path(a.inputs), Path(a.out)
+    # A job.json inside the private dataset (written by kaggle_run.py --full) selects clips/looks without editing the notebook.
+    job = next(iter(inputs.rglob('job.json')), None)
+    if job and not (a.all or a.clips or a.bases):
+        j = json.loads(job.read_text(encoding='utf-8'))
+        a.all, a.bases = bool(j.get('all')), j.get('bases') or None
+        print('job.json:', j)
     bases, clips = plan(inputs, cfg, a.all, a.clips, a.bases)
     if not bases or not clips:
         sys.exit('nothing to render (check input folder and configs/render.json)')

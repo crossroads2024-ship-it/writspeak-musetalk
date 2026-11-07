@@ -52,6 +52,8 @@ def main():
     ap.add_argument('--results', default=str(ROOT / 'results'))
     ap.add_argument('--stage', default=str(ROOT / '.work'))
     ap.add_argument('--timeout-min', type=int, default=120)
+    ap.add_argument('--full', action='store_true', help='render EVERY audio clip with ONE base look (use only after the proof of concept is approved)')
+    ap.add_argument('--base', default='still', help='base look for --full: idle, talking or still')
     ap.add_argument('--dry-run', action='store_true')
     a = ap.parse_args()
 
@@ -65,7 +67,12 @@ def main():
     shutil.rmtree(ds, ignore_errors=True)
     ds.mkdir(parents=True)
     cfg = json.loads((ROOT / 'configs' / 'render.json').read_text(encoding='utf-8'))
-    wanted = set(cfg['bases'].values()) | {c + e for c in cfg['poc_clips'] for e in cfg['audio_extensions']}
+    if a.full:
+        wanted = {cfg['bases'][a.base]}
+        wanted |= {p.name for p in inputs.rglob('*') if p.suffix.lower() in tuple(cfg['audio_extensions']) and p.name not in cfg['bases'].values()}
+        (ds / 'job.json').write_text(json.dumps({'all': True, 'bases': [a.base]}))
+    else:
+        wanted = set(cfg['bases'].values()) | {c + e for c in cfg['poc_clips'] for e in cfg['audio_extensions']}
     n = 0
     for p in inputs.rglob('*'):
         if p.is_file() and p.name in wanted:
