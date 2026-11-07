@@ -30,4 +30,3 @@ Roll back by removing the branch change; the old mp3 button keeps working.
 ## 6. Before going live
 - Resolve or accept the three UNRESOLVED helper-model licences in docs/LICENSES.md.
 - Add the attribution list to a public credits/privacy section (the repo rule says only privacy.html may name providers).
-- Confirm Jogenesis/KIE terms for commercial use of the portrait.

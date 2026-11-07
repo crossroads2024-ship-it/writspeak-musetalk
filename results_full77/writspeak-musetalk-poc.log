@@ -1,0 +1,379 @@
+[{"stream_name":"stderr","time":7.23273899,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":7.232797211,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":8.279583953,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.279613277,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.279618409,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.279622123,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.937878343,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.937926309,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.937932174,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.937936505,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.517314121,"data":"Cloning into '/kaggle/working/repo'...\n"}
+,{"stream_name":"stdout","time":10.685929358,"data":"private inputs: /kaggle/input/datasets/themba123/writspeak-examiner-inputs ['examiner-source.jpg', 'job.json', 'p1-food-2.mp3', 'p1-food-3.mp3', 'p1-food-4.mp3', 'p1-food.mp3', 'p1-friends-2.mp3', 'p1-friends-3.mp3', 'p1-friends-4.mp3', 'p1-friends.mp3', 'p1-home-2.mp3', 'p1-home-3.mp3', 'p1-home-4.mp3', 'p1-home.mp3', 'p1-music-2.mp3', 'p1-music-3.mp3', 'p1-music-4.mp3', 'p1-music.mp3', 'p1-phone-2.mp3', 'p1-phone-3.mp3', 'p1-phone-4.mp3', 'p1-phone.mp3', 'p1-study-2.mp3', 'p1-study-3.mp3', 'p1-study-4.mp3', 'p1-study.mp3', 'p1-weather-2.mp3', 'p1-weather-3.mp3', 'p1-weather-4.mp3', 'p1-weather.mp3', 'p1-weekend-2.mp3', 'p1-weekend-3.mp3', 'p1-weekend-4.mp3', 'p1-weekend.mp3', 'p2-app.mp3', 'p2-book.mp3', 'p2-decision.mp3', 'p2-event.mp3', 'p2-goal.mp3', 'p2-helped.mp3', 'p2-journey.mp3', 'p2-late.mp3', 'p2-object.mp3', 'p2-park.mp3', 'p2-person.mp3', 'p2-photo.mp3', 'p2-place.mp3', 'p2-shop.mp3', 'p2-skill.mp3', 'p3-app-2.mp3', 'p3-book-1.mp3', 'p3-book-2.mp3', 'p3-cities.mp3', 'p3-decision-1.mp3', 'p3-decision-2.mp3', 'p3-education.mp3', 'p3-environment.mp3', 'p3-event-2.mp3', 'p3-goal-1.mp3', 'p3-goal-2.mp3', 'p3-helped-1.mp3', 'p3-helped-2.mp3', 'p3-journey-1.mp3', 'p3-journey-2.mp3', 'p3-late-1.mp3', 'p3-late-2.mp3', 'p3-media.mp3', 'p3-object-1.mp3', 'p3-object-2.mp3', 'p3-park-2.mp3', 'p3-person-2.mp3', 'p3-photo-1.mp3', 'p3-photo-2.mp3', 'p3-place-2.mp3', 'p3-shop-1.mp3', 'p3-shop-2.mp3', 'p3-skill-2.mp3', 'p3-tradition.mp3', 'p3-work.mp3']\n"}
+,{"stream_name":"stderr","time":10.721049,"data":"Cloning into '/kaggle/working/repo'...\n"}
+,{"stream_name":"stderr","time":10.72107258,"data":"\n"}
+,{"stream_name":"stderr","time":10.721077929,"data":"Cloning into '/kaggle/working/repo'...\n"}
+,{"stream_name":"stdout","time":11.29773412,"data":"ca21abc Add --full mode: render every clip with one base look via job.json (Kaggle free GPU)\n"}
+,{"stream_name":"stdout","time":11.297756414,"data":"\n"}
+,{"stream_name":"stdout","time":143.851619984,"data":"Requirement already satisfied: requests in /kaggle/temp/mt310/lib/python3.10/site-packages (from torchvision-\u003emmpose==1.1.0) (2.28.2)\n"}
+,{"stream_name":"stdout","time":143.851668882,"data":"Requirement already satisfied: torch==2.0.1 in /kaggle/temp/mt310/lib/python3.10/site-packages (from torchvision-\u003emmpose==1.1.0) (2.0.1+cu118)\n"}
+,{"stream_name":"stdout","time":143.851674906,"data":"Requirement already satisfied: filelock in /kaggle/temp/mt310/lib/python3.10/site-packages (from torch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (3.14.0)\n"}
+,{"stream_name":"stdout","time":143.851678871,"data":"Requirement already satisfied: typing-extensions in /kaggle/temp/mt310/lib/python3.10/site-packages (from torch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (4.16.0)\n"}
+,{"stream_name":"stdout","time":143.851682635,"data":"Requirement already satisfied: sympy in /kaggle/temp/mt310/lib/python3.10/site-packages (from torch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (1.14.0)\n"}
+,{"stream_name":"stdout","time":143.851686253,"data":"Requirement already satisfied: networkx in /kaggle/temp/mt310/lib/python3.10/site-packages (from torch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (3.4.2)\n"}
+,{"stream_name":"stdout","time":143.851689955,"data":"Requirement already satisfied: jinja2 in /kaggle/temp/mt310/lib/python3.10/site-packages (from torch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (3.1.6)\n"}
+,{"stream_name":"stdout","time":143.851693663,"data":"Requirement already satisfied: triton==2.0.0 in /kaggle/temp/mt310/lib/python3.10/site-packages (from torch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (2.0.0)\n"}
+,{"stream_name":"stdout","time":143.851697318,"data":"Requirement already satisfied: cmake in /kaggle/temp/mt310/lib/python3.10/site-packages (from triton==2.0.0-\u003etorch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (3.25.0)\n"}
+,{"stream_name":"stdout","time":143.851701195,"data":"Requirement already satisfied: lit in /kaggle/temp/mt310/lib/python3.10/site-packages (from triton==2.0.0-\u003etorch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (15.0.7)\n"}
+,{"stream_name":"stdout","time":143.851704916,"data":"Requirement already satisfied: MarkupSafe\u003e=2.0 in /kaggle/temp/mt310/lib/python3.10/site-packages (from jinja2-\u003etorch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (3.0.3)\n"}
+,{"stream_name":"stdout","time":143.851708751,"data":"Requirement already satisfied: charset-normalizer\u003c4,\u003e=2 in /kaggle/temp/mt310/lib/python3.10/site-packages (from requests-\u003etorchvision-\u003emmpose==1.1.0) (2.1.1)\n"}
+,{"stream_name":"stdout","time":143.85171255,"data":"Requirement already satisfied: idna\u003c4,\u003e=2.5 in /kaggle/temp/mt310/lib/python3.10/site-packages (from requests-\u003etorchvision-\u003emmpose==1.1.0) (3.4)\n"}
+,{"stream_name":"stdout","time":143.851722782,"data":"Requirement already satisfied: urllib3\u003c1.27,\u003e=1.21.1 in /kaggle/temp/mt310/lib/python3.10/site-packages (from requests-\u003etorchvision-\u003emmpose==1.1.0) (1.26.13)\n"}
+,{"stream_name":"stdout","time":143.85172626600001,"data":"Requirement already satisfied: certifi\u003e=2017.4.17 in /kaggle/temp/mt310/lib/python3.10/site-packages (from requests-\u003etorchvision-\u003emmpose==1.1.0) (2022.12.7)\n"}
+,{"stream_name":"stdout","time":143.85172887,"data":"Requirement already satisfied: mpmath\u003c1.4,\u003e=1.1.0 in /kaggle/temp/mt310/lib/python3.10/site-packages (from sympy-\u003etorch==2.0.1-\u003etorchvision-\u003emmpose==1.1.0) (1.3.0)\n"}
+,{"stream_name":"stdout","time":143.851732911,"data":"Downloading mmpose-1.1.0-py2.py3-none-any.whl (1.3 MB)\n"}
+,{"stream_name":"stdout","time":143.85173569,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 8.0 MB/s  0:00:00\n"}
+,{"stream_name":"stdout","time":143.851753255,"data":"Downloading xtcocotools-1.14.3-cp310-cp310-manylinux1_x86_64.whl (436 kB)\n"}
+,{"stream_name":"stdout","time":143.8517615,"data":"Downloading cython-3.3.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.5 MB)\n"}
+,{"stream_name":"stdout","time":143.851765854,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.5/3.5 MB 58.0 MB/s  0:00:00\n"}
+,{"stream_name":"stdout","time":143.851770333,"data":"Downloading json_tricks-3.17.3-py2.py3-none-any.whl (27 kB)\n"}
+,{"stream_name":"stdout","time":143.851773731,"data":"Downloading munkres-3.0.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (173 kB)\n"}
+,{"stream_name":"stdout","time":143.851777559,"data":"Installing collected packages: json-tricks, munkres, cython, xtcocotools, mmpose\n"}
+,{"stream_name":"stdout","time":143.851781041,"data":"\n"}
+,{"stream_name":"stdout","time":143.85178414,"data":"Successfully installed cython-3.3.1 json-tricks-3.17.3 mmpose-1.1.0 munkres-3.0.0 xtcocotools-1.14.3\n"}
+,{"stream_name":"stdout","time":143.85178789,"data":"WARNING: Unsafe import of 'pip._vendor.pkg_resources' after pip install completed: packages may have changed. Callers should import all required modules before running pip install, or run pip in a subprocess. See https://pip.pypa.io/en/stable/user_guide/#using-pip-from-your-program\n"}
+,{"stream_name":"stdout","time":143.851791943,"data":"Cloning into '/kaggle/temp/MuseTalk'...\n"}
+,{"stream_name":"stdout","time":143.851795146,"data":"torch 2.0.1+cu118 | cuda available: True | mmcv 2.0.1 | mmpose 1.1.0 | cv2 4.9.0\n"}
+,{"stream_name":"stdout","time":143.851798548,"data":"INSTALL OK\n"}
+,{"stream_name":"stdout","time":143.851801793,"data":"\n"}
+,{"stream_name":"stdout","time":180.818187362,"data":"\n"}
+,{"stream_name":"stdout","time":180.818217406,"data":"Fetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]Downloading 'diffusion_pytorch_model.bin' to 'models/sd-vae/.cache/huggingface/download/QGKUr3yaD9JD-RaWEuvjvgKhPHs=.1b4889b6b1d4ce7ae320a02dedaeff1780ad77d415ea0d744b476155c6377ddc.incomplete'\n"}
+,{"stream_name":"stdout","time":180.818224599,"data":"Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`\n"}
+,{"stream_name":"stdout","time":180.81822976,"data":"Downloading 'config.json' to 'models/sd-vae/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.0db26717579be63eb0ddbf15b43faa43700dfe5a.incomplete'\n"}
+,{"stream_name":"stdout","time":180.818234884,"data":"Download complete. Moving file to models/sd-vae/config.json\n"}
+,{"stream_name":"stdout","time":180.818240058,"data":"\n"}
+,{"stream_name":"stdout","time":180.818245152,"data":"Fetching 2 files:  50%|█████     | 1/2 [00:00\u003c00:00,  5.19it/s]Download complete. Moving file to models/sd-vae/diffusion_pytorch_model.bin\n"}
+,{"stream_name":"stdout","time":180.818250482,"data":"\n"}
+,{"stream_name":"stdout","time":180.818254365,"data":"Fetching 2 files: 100%|██████████| 2/2 [00:02\u003c00:00,  1.32s/it]\n"}
+,{"stream_name":"stdout","time":180.818259068,"data":"Fetching 2 files: 100%|██████████| 2/2 [00:02\u003c00:00,  1.15s/it]\n"}
+,{"stream_name":"stdout","time":180.818263424,"data":"/kaggle/temp/MuseTalk/models/sd-vae\n"}
+,{"stream_name":"stdout","time":180.81826741,"data":"\n"}
+,{"stream_name":"stdout","time":180.818271589,"data":"Fetching 3 files:   0%|          | 0/3 [00:00\u003c?, ?it/s]Downloading 'pytorch_model.bin' to 'models/whisper/.cache/huggingface/download/Q1p2l2BzM1m6P5jKvr8WTq1TUio=.9607f98a2b22d9e229ae43c52ecea79dcede9e0c5cfae67e8da6eda86d8aac1d.incomplete'\n"}
+,{"stream_name":"stdout","time":180.818284918,"data":"Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`\n"}
+,{"stream_name":"stdout","time":180.818288582,"data":"Download complete. Moving file to models/whisper/pytorch_model.bin\n"}
+,{"stream_name":"stdout","time":180.818291722,"data":"Downloading 'config.json' to 'models/whisper/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.417aa9de49a132dd3eb6a56d3be2718b15f08917.incomplete'\n"}
+,{"stream_name":"stdout","time":180.818295132,"data":"Downloading 'preprocessor_config.json' to 'models/whisper/.cache/huggingface/download/PYH5dHjks7Ei0Yd3X0Z8xIwsCNQ=.c2048dfa9fd94a052e62e908d2c4dfb18534b4d2.incomplete'\n"}
+,{"stream_name":"stdout","time":180.818298779,"data":"Download complete. Moving file to models/whisper/config.json\n"}
+,{"stream_name":"stdout","time":180.818302455,"data":"\n"}
+,{"stream_name":"stdout","time":180.81830716,"data":"Fetching 3 files:  33%|███▎      | 1/3 [00:01\u003c00:03,  1.79s/it]Download complete. Moving file to models/whisper/preprocessor_config.json\n"}
+,{"stream_name":"stdout","time":180.818310947,"data":"\n"}
+,{"stream_name":"stdout","time":180.818314005,"data":"Fetching 3 files: 100%|██████████| 3/3 [00:01\u003c00:00,  1.67it/s]\n"}
+,{"stream_name":"stdout","time":180.818317592,"data":"/kaggle/temp/MuseTalk/models/whisper\n"}
+,{"stream_name":"stdout","time":180.818320923,"data":"\n"}
+,{"stream_name":"stdout","time":180.818323967,"data":"Fetching 1 files:   0%|          | 0/1 [00:00\u003c?, ?it/s]Downloading 'dw-ll_ucoco_384.pth' to 'models/dwpose/.cache/huggingface/download/k-OzMXIWb0U6nYL8JmO35RFCBoQ=.0d9408b13cd863c4e95a149dd31232f88f2a12aa6cf8964ed74d7d97748c7a07.incomplete'\n"}
+,{"stream_name":"stdout","time":180.818327397,"data":"Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`\n"}
+,{"stream_name":"stdout","time":180.818331475,"data":"Download complete. Moving file to models/dwpose/dw-ll_ucoco_384.pth\n"}
+,{"stream_name":"stdout","time":180.818335481,"data":"\n"}
+,{"stream_name":"stdout","time":180.818354334,"data":"Fetching 1 files: 100%|██████████| 1/1 [00:02\u003c00:00,  2.77s/it]\n"}
+,{"stream_name":"stdout","time":180.818358436,"data":"Fetching 1 files: 100%|██████████| 1/1 [00:02\u003c00:00,  2.77s/it]\n"}
+,{"stream_name":"stdout","time":180.81836179,"data":"/kaggle/temp/MuseTalk/models/dwpose\n"}
+,{"stream_name":"stdout","time":180.818364729,"data":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n"}
+,{"stream_name":"stdout","time":180.818368123,"data":"                                 Dload  Upload   Total   Spent    Left  Speed\n"}
+,{"stream_name":"stdout","time":180.818372785,"data":"\n"}
+,{"stream_name":"stdout","time":180.818376317,"data":"  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n"}
+,{"stream_name":"stdout","time":180.818379966,"data":"100 44.6M  100 44.6M    0     0   153M      0 --:--:-- --:--:-- --:--:--  153M\n"}
+,{"stream_name":"stdout","time":180.818383283,"data":"Downloading...\n"}
+,{"stream_name":"stdout","time":180.81838645,"data":"From: https://drive.google.com/uc?id=154JgKpzCPW82qINcVieuPH3fZ2e0P812\n"}
+,{"stream_name":"stdout","time":180.818389974,"data":"To: /kaggle/temp/MuseTalk/models/face-parse-bisent/79999_iter.pth\n"}
+,{"stream_name":"stdout","time":180.818394147,"data":"\n"}
+,{"stream_name":"stdout","time":180.818402413,"data":"  0%|          | 0.00/53.3M [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stdout","time":180.81840581,"data":" 14%|█▍        | 7.34M/53.3M [00:00\u003c00:00, 71.2MB/s]\n"}
+,{"stream_name":"stdout","time":180.818409441,"data":" 53%|█████▎    | 28.3M/53.3M [00:00\u003c00:00, 150MB/s] \n"}
+,{"stream_name":"stdout","time":180.81841285,"data":" 92%|█████████▏| 49.3M/53.3M [00:00\u003c00:00, 143MB/s]\n"}
+,{"stream_name":"stdout","time":180.818416448,"data":"100%|██████████| 53.3M/53.3M [00:00\u003c00:00, 144MB/s]\n"}
+,{"stream_name":"stdout","time":180.818420125,"data":"MODELS OK\n"}
+,{"stream_name":"stdout","time":180.818423395,"data":"4.1G\tmodels\n"}
+,{"stream_name":"stdout","time":180.818426713,"data":"\n"}
+,{"stream_name":"stdout","time":181.000218367,"data":"   p3-book-1__still\n"}
+,{"stream_name":"stdout","time":181.00026076,"data":"   p3-book-2__still\n"}
+,{"stream_name":"stdout","time":181.00026603,"data":"   p3-cities__still\n"}
+,{"stream_name":"stdout","time":181.000269848,"data":"   p3-decision-1__still\n"}
+,{"stream_name":"stdout","time":181.000273616,"data":"   p3-decision-2__still\n"}
+,{"stream_name":"stdout","time":181.000277182,"data":"   p3-education__still\n"}
+,{"stream_name":"stdout","time":181.000280664,"data":"   p3-environment__still\n"}
+,{"stream_name":"stdout","time":181.000284915,"data":"   p3-event-2__still\n"}
+,{"stream_name":"stdout","time":181.000288446,"data":"   p3-goal-1__still\n"}
+,{"stream_name":"stdout","time":181.000291936,"data":"   p3-goal-2__still\n"}
+,{"stream_name":"stdout","time":181.000295324,"data":"   p3-helped-1__still\n"}
+,{"stream_name":"stdout","time":181.000298896,"data":"   p3-helped-2__still\n"}
+,{"stream_name":"stdout","time":181.000302448,"data":"   p3-journey-1__still\n"}
+,{"stream_name":"stdout","time":181.000306928,"data":"   p3-journey-2__still\n"}
+,{"stream_name":"stdout","time":181.000310317,"data":"   p3-late-1__still\n"}
+,{"stream_name":"stdout","time":181.000313858,"data":"   p3-late-2__still\n"}
+,{"stream_name":"stdout","time":181.00031769,"data":"   p3-media__still\n"}
+,{"stream_name":"stdout","time":181.000321668,"data":"   p3-object-1__still\n"}
+,{"stream_name":"stdout","time":181.00032529,"data":"   p3-object-2__still\n"}
+,{"stream_name":"stdout","time":181.000329062,"data":"   p3-park-2__still\n"}
+,{"stream_name":"stdout","time":181.000332982,"data":"   p3-person-2__still\n"}
+,{"stream_name":"stdout","time":181.000336414,"data":"   p3-photo-1__still\n"}
+,{"stream_name":"stdout","time":181.0003405,"data":"   p3-photo-2__still\n"}
+,{"stream_name":"stdout","time":181.000344271,"data":"   p3-place-2__still\n"}
+,{"stream_name":"stdout","time":181.00036157,"data":"   p3-shop-1__still\n"}
+,{"stream_name":"stdout","time":181.000368594,"data":"   p3-shop-2__still\n"}
+,{"stream_name":"stdout","time":181.000372224,"data":"   p3-skill-2__still\n"}
+,{"stream_name":"stdout","time":181.000375838,"data":"   p3-tradition__still\n"}
+,{"stream_name":"stdout","time":181.000380124,"data":"   p3-work__still\n"}
+,{"stream_name":"stdout","time":181.000383664,"data":"dry run only - nothing rendered\n"}
+,{"stream_name":"stdout","time":181.000387614,"data":"\n"}
+,{"stream_name":"stdout","time":2775.201193102,"data":"   p3-book-2__still\n"}
+,{"stream_name":"stdout","time":2775.201243822,"data":"   p3-cities__still\n"}
+,{"stream_name":"stdout","time":2775.201250705,"data":"   p3-decision-1__still\n"}
+,{"stream_name":"stdout","time":2775.201255612,"data":"   p3-decision-2__still\n"}
+,{"stream_name":"stdout","time":2775.201268676,"data":"   p3-education__still\n"}
+,{"stream_name":"stdout","time":2775.201272486,"data":"   p3-environment__still\n"}
+,{"stream_name":"stdout","time":2775.201276061,"data":"   p3-event-2__still\n"}
+,{"stream_name":"stdout","time":2775.20127964,"data":"   p3-goal-1__still\n"}
+,{"stream_name":"stdout","time":2775.201283261,"data":"   p3-goal-2__still\n"}
+,{"stream_name":"stdout","time":2775.201287158,"data":"   p3-helped-1__still\n"}
+,{"stream_name":"stdout","time":2775.201291496,"data":"   p3-helped-2__still\n"}
+,{"stream_name":"stdout","time":2775.201295093,"data":"   p3-journey-1__still\n"}
+,{"stream_name":"stdout","time":2775.20129845,"data":"   p3-journey-2__still\n"}
+,{"stream_name":"stdout","time":2775.201302099,"data":"   p3-late-1__still\n"}
+,{"stream_name":"stdout","time":2775.201305426,"data":"   p3-late-2__still\n"}
+,{"stream_name":"stdout","time":2775.201309166,"data":"   p3-media__still\n"}
+,{"stream_name":"stdout","time":2775.20131251,"data":"   p3-object-1__still\n"}
+,{"stream_name":"stdout","time":2775.201315994,"data":"   p3-object-2__still\n"}
+,{"stream_name":"stdout","time":2775.201319151,"data":"   p3-park-2__still\n"}
+,{"stream_name":"stdout","time":2775.201322852,"data":"   p3-person-2__still\n"}
+,{"stream_name":"stdout","time":2775.201326282,"data":"   p3-photo-1__still\n"}
+,{"stream_name":"stdout","time":2775.201329848,"data":"   p3-photo-2__still\n"}
+,{"stream_name":"stdout","time":2775.201333156,"data":"   p3-place-2__still\n"}
+,{"stream_name":"stdout","time":2775.201354345,"data":"   p3-shop-1__still\n"}
+,{"stream_name":"stdout","time":2775.2013617,"data":"   p3-shop-2__still\n"}
+,{"stream_name":"stdout","time":2775.201365124,"data":"   p3-skill-2__still\n"}
+,{"stream_name":"stdout","time":2775.20136865,"data":"   p3-tradition__still\n"}
+,{"stream_name":"stdout","time":2775.201372234,"data":"   p3-work__still\n"}
+,{"stream_name":"stdout","time":2775.201376748,"data":"running: /kaggle/temp/mt310/bin/python -m scripts.inference --inference_config /kaggle/temp/MuseTalk/data/writspeak_tasks.yaml --result_dir /kaggle/temp/MuseTalk/results/writspeak --unet_model_path models/musetalkV15/unet.pth --unet_config models/musetalkV15/musetalk.json --version v15 --fps 25 --batch_size 8 --parsing_mode jaw --extra_margin 10 --left_cheek_width 90 --right_cheek_width 90 --use_float16\n"}
+,{"stream_name":"stdout","time":2775.201382906,"data":"77/77 videos copied to /kaggle/working/out\n"}
+,{"stream_name":"stdout","time":2775.20138658,"data":"\n"}
+,{"stream_name":"stdout","time":2876.371332194,"data":"| p3-helped-1 | still | 0.176 | 0.47 | 1.98 | 0.0 | 0.07 | 0.42 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.371381419,"data":"| p3-helped-2 | still | 0.172 | 0.44 | 1.52 | 0.0 | 0.07 | 0.37 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.371391097,"data":"| p3-journey-1 | still | 0.189 | 0.49 | 1.88 | 0.0 | 0.07 | 0.48 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371394564,"data":"| p3-journey-2 | still | 0.193 | 0.42 | 1.79 | 0.0 | 0.08 | 0.4 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.371397585,"data":"| p3-late-1 | still | 0.18 | 0.46 | 1.77 | 0.0 | 0.08 | 0.42 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.371400432,"data":"| p3-late-2 | still | 0.159 | 0.47 | 1.94 | 0.0 | 0.07 | 0.53 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.371403329,"data":"| p3-media | still | 0.187 | 0.5 | 1.89 | 0.0 | 0.08 | 0.39 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371406127,"data":"| p3-object-1 | still | 0.179 | 0.45 | 1.76 | 0.0 | 0.08 | 0.47 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371409037,"data":"| p3-object-2 | still | 0.181 | 0.46 | 1.68 | 0.0 | 0.07 | 0.2 | 0 |\n"}
+,{"stream_name":"stdout","time":2876.37141881,"data":"| p3-park-2 | still | 0.158 | 0.42 | 1.61 | 0.0 | 0.08 | 0.61 | 160 |\n"}
+,{"stream_name":"stdout","time":2876.371421367,"data":"| p3-person-2 | still | 0.189 | 0.48 | 1.53 | 0.0 | 0.08 | 0.36 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.371423643,"data":"| p3-photo-1 | still | 0.177 | 0.5 | 1.76 | 0.0 | 0.08 | 0.49 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.37142617,"data":"| p3-photo-2 | still | 0.19 | 0.45 | 1.55 | 0.0 | 0.07 | 0.33 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371446525,"data":"| p3-place-2 | still | 0.198 | 0.46 | 1.96 | 0.0 | 0.07 | 0.48 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.371450307,"data":"| p3-shop-1 | still | 0.188 | 0.45 | 1.82 | 0.0 | 0.08 | 0.55 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.371454279,"data":"| p3-shop-2 | still | 0.184 | 0.48 | 1.93 | 0.0 | 0.07 | 0.34 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371458051,"data":"| p3-skill-2 | still | 0.183 | 0.49 | 1.78 | 0.0 | 0.08 | 0.45 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.371462024,"data":"| p3-tradition | still | 0.21 | 0.48 | 1.69 | 0.0 | 0.07 | 0.47 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371465799,"data":"| p3-work | still | 0.234 | 0.46 | 1.77 | 0.0 | 0.08 | 0.43 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.371469416,"data":"\n"}
+,{"stream_name":"stdout","time":2876.371472602,"data":"## Averages per base look\n"}
+,{"stream_name":"stdout","time":2876.371476087,"data":"\n"}
+,{"stream_name":"stdout","time":2876.371479209,"data":"| base | avg MB | sharpness | head motion | face drift | av corr |\n"}
+,{"stream_name":"stdout","time":2876.37148258,"data":"|---|---|---|---|---|---|\n"}
+,{"stream_name":"stdout","time":2876.371485741,"data":"| still | 0.18 | 0.46 | 0.0 | 0.08 | 0.46 |\n"}
+,{"stream_name":"stdout","time":2876.371489095,"data":"\n"}
+,{"stream_name":"stdout","time":2876.37149218,"data":"## Silent base videos (reference, no new mouth)\n"}
+,{"stream_name":"stdout","time":2876.371495424,"data":"\n"}
+,{"stream_name":"stdout","time":2876.371498542,"data":"\n"}
+,{"stream_name":"stdout","time":2876.371501649,"data":"These numbers are indicators only. Watch the videos: lip-sync accuracy, mouth sharpness and facial consistency are judged by eye.\n"}
+,{"stream_name":"stdout","time":2876.371505215,"data":"\n"}
+,{"stream_name":"stdout","time":2876.371508336,"data":"# MuseTalk proof of concept report\n"}
+,{"stream_name":"stdout","time":2876.371511646,"data":"\n"}
+,{"stream_name":"stdout","time":2876.371518041,"data":"## File checks (size, audio/video length, audio track)\n"}
+,{"stream_name":"stdout","time":2876.371520399,"data":"```\n"}
+,{"stream_name":"stdout","time":2876.371522576,"data":"[ok] p1-food-2__still.mp4: 0.138 MB, 1024x1024 @ 25.0 fps, video 1.96s, audio 2.01s\n"}
+,{"stream_name":"stdout","time":2876.371524911,"data":"[ok] p1-food-3__still.mp4: 0.184 MB, 1024x1024 @ 25.0 fps, video 4.88s, audio 4.94s\n"}
+,{"stream_name":"stdout","time":2876.371527159,"data":"[ok] p1-food-4__still.mp4: 0.178 MB, 1024x1024 @ 25.0 fps, video 4.56s, audio 4.63s\n"}
+,{"stream_name":"stdout","time":2876.371530576,"data":"[ok] p1-food__still.mp4: 0.223 MB, 1024x1024 @ 25.0 fps, video 7.64s, audio 7.7s\n"}
+,{"stream_name":"stdout","time":2876.371542424,"data":"[ok] p1-friends-2__still.mp4: 0.174 MB, 1024x1024 @ 25.0 fps, video 4.36s, audio 4.43s\n"}
+,{"stream_name":"stdout","time":2876.371546182,"data":"[ok] p1-friends-3__still.mp4: 0.152 MB, 1024x1024 @ 25.0 fps, video 3.12s, audio 3.16s\n"}
+,{"stream_name":"stdout","time":2876.371550134,"data":"[ok] p1-friends-4__still.mp4: 0.166 MB, 1024x1024 @ 25.0 fps, video 3.88s, audio 3.95s\n"}
+,{"stream_name":"stdout","time":2876.371553661,"data":"[ok] p1-friends__still.mp4: 0.228 MB, 1024x1024 @ 25.0 fps, video 7.92s, audio 7.99s\n"}
+,{"stream_name":"stdout","time":2876.371561787,"data":"[ok] p1-home-2__still.mp4: 0.172 MB, 1024x1024 @ 25.0 fps, video 4.16s, audio 4.22s\n"}
+,{"stream_name":"stdout","time":2876.371565327,"data":"[ok] p1-home-3__still.mp4: 0.165 MB, 1024x1024 @ 25.0 fps, video 3.6s, audio 3.67s\n"}
+,{"stream_name":"stdout","time":2876.371568669,"data":"[ok] p1-home-4__still.mp4: 0.164 MB, 1024x1024 @ 25.0 fps, video 3.76s, audio 3.83s\n"}
+,{"stream_name":"stdout","time":2876.371572136,"data":"[ok] p1-home__still.mp4: 0.212 MB, 1024x1024 @ 25.0 fps, video 6.88s, audio 6.95s\n"}
+,{"stream_name":"stdout","time":2876.371575491,"data":"[ok] p1-music-2__still.mp4: 0.155 MB, 1024x1024 @ 25.0 fps, video 3.28s, audio 3.35s\n"}
+,{"stream_name":"stdout","time":2876.371578878,"data":"[ok] p1-music-3__still.mp4: 0.173 MB, 1024x1024 @ 25.0 fps, video 4.16s, audio 4.22s\n"}
+,{"stream_name":"stdout","time":2876.371582218,"data":"[ok] p1-music-4__still.mp4: 0.152 MB, 1024x1024 @ 25.0 fps, video 3.0s, audio 3.04s\n"}
+,{"stream_name":"stdout","time":2876.371585552,"data":"[ok] p1-music__still.mp4: 0.218 MB, 1024x1024 @ 25.0 fps, video 7.28s, audio 7.34s\n"}
+,{"stream_name":"stdout","time":2876.371588979,"data":"[ok] p1-phone-2__still.mp4: 0.159 MB, 1024x1024 @ 25.0 fps, video 3.48s, audio 3.55s\n"}
+,{"stream_name":"stdout","time":2876.371592354,"data":"[ok] p1-phone-3__still.mp4: 0.166 MB, 1024x1024 @ 25.0 fps, video 3.96s, audio 4.03s\n"}
+,{"stream_name":"stdout","time":2876.371595682,"data":"[ok] p1-phone-4__still.mp4: 0.152 MB, 1024x1024 @ 25.0 fps, video 3.12s, audio 3.19s\n"}
+,{"stream_name":"stdout","time":2876.371599029,"data":"[ok] p1-phone__still.mp4: 0.197 MB, 1024x1024 @ 25.0 fps, video 6.12s, audio 6.16s\n"}
+,{"stream_name":"stdout","time":2876.371602318,"data":"[ok] p1-study-2__still.mp4: 0.165 MB, 1024x1024 @ 25.0 fps, video 3.68s, audio 3.74s\n"}
+,{"stream_name":"stdout","time":2876.371605677,"data":"[ok] p1-study-3__still.mp4: 0.177 MB, 1024x1024 @ 25.0 fps, video 4.44s, audio 4.51s\n"}
+,{"stream_name":"stdout","time":2876.371608986,"data":"[ok] p1-study-4__still.mp4: 0.167 MB, 1024x1024 @ 25.0 fps, video 3.88s, audio 3.95s\n"}
+,{"stream_name":"stdout","time":2876.371612319,"data":"[ok] p1-study__still.mp4: 0.201 MB, 1024x1024 @ 25.0 fps, video 5.92s, audio 5.99s\n"}
+,{"stream_name":"stdout","time":2876.371618832,"data":"[ok] p1-weather-2__still.mp4: 0.149 MB, 1024x1024 @ 25.0 fps, video 2.8s, audio 2.87s\n"}
+,{"stream_name":"stdout","time":2876.371621577,"data":"[ok] p1-weather-3__still.mp4: 0.162 MB, 1024x1024 @ 25.0 fps, video 3.72s, audio 3.76s\n"}
+,{"stream_name":"stdout","time":2876.371624026,"data":"[ok] p1-weather-4__still.mp4: 0.175 MB, 1024x1024 @ 25.0 fps, video 4.48s, audio 4.53s\n"}
+,{"stream_name":"stdout","time":2876.371636588,"data":"[ok] p1-weather__still.mp4: 0.221 MB, 1024x1024 @ 25.0 fps, video 7.32s, audio 7.39s\n"}
+,{"stream_name":"stdout","time":2876.371641043,"data":"[ok] p1-weekend-2__still.mp4: 0.191 MB, 1024x1024 @ 25.0 fps, video 5.32s, audio 5.37s\n"}
+,{"stream_name":"stdout","time":2876.371644855,"data":"[ok] p1-weekend-3__still.mp4: 0.155 MB, 1024x1024 @ 25.0 fps, video 3.28s, audio 3.35s\n"}
+,{"stream_name":"stdout","time":2876.371654934,"data":"[ok] p1-weekend-4__still.mp4: 0.166 MB, 1024x1024 @ 25.0 fps, video 3.88s, audio 3.93s\n"}
+,{"stream_name":"stdout","time":2876.371658397,"data":"[ok] p1-weekend__still.mp4: 0.21 MB, 1024x1024 @ 25.0 fps, video 6.84s, audio 6.91s\n"}
+,{"stream_name":"stdout","time":2876.371661754,"data":"[ok] p2-app__still.mp4: 0.18 MB, 1024x1024 @ 25.0 fps, video 4.6s, audio 4.67s\n"}
+,{"stream_name":"stdout","time":2876.371665126,"data":"[ok] p2-book__still.mp4: 0.162 MB, 1024x1024 @ 25.0 fps, video 3.6s, audio 3.64s\n"}
+,{"stream_name":"stdout","time":2876.371682688,"data":"[ok] p2-decision__still.mp4: 0.161 MB, 1024x1024 @ 25.0 fps, video 3.52s, audio 3.59s\n"}
+,{"stream_name":"stdout","time":2876.37168618,"data":"[ok] p2-event__still.mp4: 0.178 MB, 1024x1024 @ 25.0 fps, video 4.52s, audio 4.58s\n"}
+,{"stream_name":"stdout","time":2876.371689665,"data":"[ok] p2-goal__still.mp4: 0.174 MB, 1024x1024 @ 25.0 fps, video 4.24s, audio 4.29s\n"}
+,{"stream_name":"stdout","time":2876.371693026,"data":"[ok] p2-helped__still.mp4: 0.161 MB, 1024x1024 @ 25.0 fps, video 3.6s, audio 3.64s\n"}
+,{"stream_name":"stdout","time":2876.371696389,"data":"[ok] p2-journey__still.mp4: 0.158 MB, 1024x1024 @ 25.0 fps, video 3.4s, audio 3.47s\n"}
+,{"stream_name":"stdout","time":2876.371699775,"data":"[ok] p2-late__still.mp4: 0.178 MB, 1024x1024 @ 25.0 fps, video 4.56s, audio 4.63s\n"}
+,{"stream_name":"stdout","time":2876.371703112,"data":"[ok] p2-object__still.mp4: 0.188 MB, 1024x1024 @ 25.0 fps, video 5.08s, audio 5.15s\n"}
+,{"stream_name":"stdout","time":2876.371706524,"data":"[ok] p2-park__still.mp4: 0.18 MB, 1024x1024 @ 25.0 fps, video 4.44s, audio 4.51s\n"}
+,{"stream_name":"stdout","time":2876.371710144,"data":"[ok] p2-person__still.mp4: 0.186 MB, 1024x1024 @ 25.0 fps, video 5.16s, audio 5.2s\n"}
+,{"stream_name":"stdout","time":2876.371716512,"data":"[ok] p2-photo__still.mp4: 0.16 MB, 1024x1024 @ 25.0 fps, video 3.44s, audio 3.5s\n"}
+,{"stream_name":"stdout","time":2876.371719581,"data":"[ok] p2-place__still.mp4: 0.179 MB, 1024x1024 @ 25.0 fps, video 4.52s, audio 4.6s\n"}
+,{"stream_name":"stdout","time":2876.371730787,"data":"[ok] p2-shop__still.mp4: 0.166 MB, 1024x1024 @ 25.0 fps, video 3.88s, audio 3.93s\n"}
+,{"stream_name":"stdout","time":2876.371734869,"data":"[ok] p2-skill__still.mp4: 0.173 MB, 1024x1024 @ 25.0 fps, video 4.24s, audio 4.31s\n"}
+,{"stream_name":"stdout","time":2876.371738766,"data":"[ok] p3-app-2__still.mp4: 0.181 MB, 1024x1024 @ 25.0 fps, video 4.6s, audio 4.65s\n"}
+,{"stream_name":"stdout","time":2876.371742821,"data":"[ok] p3-book-1__still.mp4: 0.172 MB, 1024x1024 @ 25.0 fps, video 4.24s, audio 4.31s\n"}
+,{"stream_name":"stdout","time":2876.371746807,"data":"[ok] p3-book-2__still.mp4: 0.171 MB, 1024x1024 @ 25.0 fps, video 4.24s, audio 4.29s\n"}
+,{"stream_name":"stdout","time":2876.371750518,"data":"[ok] p3-cities__still.mp4: 0.222 MB, 1024x1024 @ 25.0 fps, video 7.24s, audio 7.29s\n"}
+,{"stream_name":"stdout","time":2876.371753969,"data":"[ok] p3-decision-1__still.mp4: 0.211 MB, 1024x1024 @ 25.0 fps, video 6.6s, audio 6.64s\n"}
+,{"stream_name":"stdout","time":2876.371758007,"data":"[ok] p3-decision-2__still.mp4: 0.174 MB, 1024x1024 @ 25.0 fps, video 4.28s, audio 4.34s\n"}
+,{"stream_name":"stdout","time":2876.371761508,"data":"[ok] p3-education__still.mp4: 0.228 MB, 1024x1024 @ 25.0 fps, video 7.48s, audio 7.55s\n"}
+,{"stream_name":"stdout","time":2876.371764862,"data":"[ok] p3-environment__still.mp4: 0.217 MB, 1024x1024 @ 25.0 fps, video 6.92s, audio 6.98s\n"}
+,{"stream_name":"stdout","time":2876.371768296,"data":"[ok] p3-event-2__still.mp4: 0.171 MB, 1024x1024 @ 25.0 fps, video 4.12s, audio 4.19s\n"}
+,{"stream_name":"stdout","time":2876.371771581,"data":"[ok] p3-goal-1__still.mp4: 0.184 MB, 1024x1024 @ 25.0 fps, video 4.92s, audio 4.99s\n"}
+,{"stream_name":"stdout","time":2876.371774963,"data":"[ok] p3-goal-2__still.mp4: 0.161 MB, 1024x1024 @ 25.0 fps, video 3.56s, audio 3.62s\n"}
+,{"stream_name":"stdout","time":2876.371778261,"data":"[ok] p3-helped-1__still.mp4: 0.176 MB, 1024x1024 @ 25.0 fps, video 4.48s, audio 4.55s\n"}
+,{"stream_name":"stdout","time":2876.371781672,"data":"[ok] p3-helped-2__still.mp4: 0.172 MB, 1024x1024 @ 25.0 fps, video 4.32s, audio 4.36s\n"}
+,{"stream_name":"stdout","time":2876.371785084,"data":"[ok] p3-journey-1__still.mp4: 0.189 MB, 1024x1024 @ 25.0 fps, video 5.2s, audio 5.27s\n"}
+,{"stream_name":"stdout","time":2876.371791833,"data":"[ok] p3-journey-2__still.mp4: 0.193 MB, 1024x1024 @ 25.0 fps, video 5.4s, audio 5.47s\n"}
+,{"stream_name":"stdout","time":2876.371795288,"data":"[ok] p3-late-1__still.mp4: 0.18 MB, 1024x1024 @ 25.0 fps, video 4.64s, audio 4.7s\n"}
+,{"stream_name":"stdout","time":2876.371798783,"data":"[ok] p3-late-2__still.mp4: 0.159 MB, 1024x1024 @ 25.0 fps, video 3.36s, audio 3.43s\n"}
+,{"stream_name":"stdout","time":2876.371806428,"data":"[ok] p3-media__still.mp4: 0.187 MB, 1024x1024 @ 25.0 fps, video 5.0s, audio 5.06s\n"}
+,{"stream_name":"stdout","time":2876.371809257,"data":"[ok] p3-object-1__still.mp4: 0.179 MB, 1024x1024 @ 25.0 fps, video 4.56s, audio 4.63s\n"}
+,{"stream_name":"stdout","time":2876.371811914,"data":"[ok] p3-object-2__still.mp4: 0.181 MB, 1024x1024 @ 25.0 fps, video 4.8s, audio 4.84s\n"}
+,{"stream_name":"stdout","time":2876.371823165,"data":"[ok] p3-park-2__still.mp4: 0.158 MB, 1024x1024 @ 25.0 fps, video 3.44s, audio 3.5s\n"}
+,{"stream_name":"stdout","time":2876.37182729,"data":"[ok] p3-person-2__still.mp4: 0.189 MB, 1024x1024 @ 25.0 fps, video 5.28s, audio 5.35s\n"}
+,{"stream_name":"stdout","time":2876.371831143,"data":"[ok] p3-photo-1__still.mp4: 0.177 MB, 1024x1024 @ 25.0 fps, video 4.36s, audio 4.41s\n"}
+,{"stream_name":"stdout","time":2876.371835262,"data":"[ok] p3-photo-2__still.mp4: 0.19 MB, 1024x1024 @ 25.0 fps, video 5.4s, audio 5.47s\n"}
+,{"stream_name":"stdout","time":2876.371839288,"data":"[ok] p3-place-2__still.mp4: 0.198 MB, 1024x1024 @ 25.0 fps, video 5.56s, audio 5.63s\n"}
+,{"stream_name":"stdout","time":2876.371842721,"data":"[ok] p3-shop-1__still.mp4: 0.188 MB, 1024x1024 @ 25.0 fps, video 5.16s, audio 5.2s\n"}
+,{"stream_name":"stdout","time":2876.37184605,"data":"[ok] p3-shop-2__still.mp4: 0.184 MB, 1024x1024 @ 25.0 fps, video 4.84s, audio 4.91s\n"}
+,{"stream_name":"stdout","time":2876.371849375,"data":"[ok] p3-skill-2__still.mp4: 0.183 MB, 1024x1024 @ 25.0 fps, video 4.8s, audio 4.84s\n"}
+,{"stream_name":"stdout","time":2876.371852772,"data":"[ok] p3-tradition__still.mp4: 0.21 MB, 1024x1024 @ 25.0 fps, video 6.6s, audio 6.67s\n"}
+,{"stream_name":"stdout","time":2876.371856458,"data":"[ok] p3-work__still.mp4: 0.234 MB, 1024x1024 @ 25.0 fps, video 7.76s, audio 7.82s\n"}
+,{"stream_name":"stdout","time":2876.371859919,"data":"```\n"}
+,{"stream_name":"stdout","time":2876.371863075,"data":"\n"}
+,{"stream_name":"stdout","time":2876.371866179,"data":"## Look comparison (higher sharpness ratio, higher av_corr, lower |lag|, lower face_drift = better; head_motion 0 = frozen)\n"}
+,{"stream_name":"stdout","time":2876.371869769,"data":"\n"}
+,{"stream_name":"stdout","time":2876.37187284,"data":"| clip | base | MB | sharpness ratio | mouth motion | head motion | face drift | av corr | av lag ms |\n"}
+,{"stream_name":"stdout","time":2876.371876288,"data":"|---|---|---|---|---|---|---|---|---|\n"}
+,{"stream_name":"stdout","time":2876.371879552,"data":"| p1-food-2 | still | 0.138 | 0.47 | 1.31 | 0.0 | 0.07 | 0.54 | 200 |\n"}
+,{"stream_name":"stdout","time":2876.371882918,"data":"| p1-food-3 | still | 0.184 | 0.48 | 1.9 | 0.0 | 0.07 | 0.43 | -80 |\n"}
+,{"stream_name":"stdout","time":2876.371886254,"data":"| p1-food-4 | still | 0.178 | 0.5 | 1.84 | 0.0 | 0.08 | 0.4 | -40 |\n"}
+,{"stream_name":"stdout","time":2876.371889581,"data":"| p1-food | still | 0.223 | 0.48 | 1.54 | 0.0 | 0.07 | 0.5 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371892963,"data":"| p1-friends-2 | still | 0.174 | 0.46 | 1.54 | 0.0 | 0.08 | 0.46 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371899831,"data":"| p1-friends-3 | still | 0.152 | 0.48 | 1.72 | 0.0 | 0.07 | 0.57 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371905774,"data":"| p1-friends-4 | still | 0.166 | 0.46 | 1.7 | 0.0 | 0.08 | 0.5 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371916808,"data":"| p1-friends | still | 0.228 | 0.49 | 1.66 | 0.0 | 0.09 | 0.44 | 280 |\n"}
+,{"stream_name":"stdout","time":2876.371920798,"data":"| p1-home-2 | still | 0.172 | 0.44 | 1.8 | 0.0 | 0.07 | 0.49 | 160 |\n"}
+,{"stream_name":"stdout","time":2876.371924895,"data":"| p1-home-3 | still | 0.165 | 0.47 | 1.76 | 0.0 | 0.08 | 0.46 | 240 |\n"}
+,{"stream_name":"stdout","time":2876.371928858,"data":"| p1-home-4 | still | 0.164 | 0.43 | 1.71 | 0.0 | 0.07 | 0.59 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.371932604,"data":"| p1-home | still | 0.212 | 0.48 | 1.87 | 0.0 | 0.07 | 0.54 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371936074,"data":"| p1-music-2 | still | 0.155 | 0.43 | 1.62 | 0.0 | 0.08 | 0.55 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371939418,"data":"| p1-music-3 | still | 0.173 | 0.44 | 1.78 | 0.0 | 0.08 | 0.47 | 200 |\n"}
+,{"stream_name":"stdout","time":2876.371942834,"data":"| p1-music-4 | still | 0.152 | 0.46 | 1.44 | 0.0 | 0.07 | 0.58 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371946074,"data":"| p1-music | still | 0.218 | 0.45 | 1.79 | 0.0 | 0.07 | 0.44 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.37194942,"data":"| p1-phone-2 | still | 0.159 | 0.45 | 1.62 | 0.0 | 0.08 | 0.52 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371952638,"data":"| p1-phone-3 | still | 0.166 | 0.42 | 1.53 | 0.0 | 0.08 | 0.4 | 320 |\n"}
+,{"stream_name":"stdout","time":2876.371955944,"data":"| p1-phone-4 | still | 0.152 | 0.42 | 1.74 | 0.0 | 0.08 | 0.39 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.371959127,"data":"| p1-phone | still | 0.197 | 0.49 | 1.5 | 0.0 | 0.08 | 0.45 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371962503,"data":"| p1-study-2 | still | 0.165 | 0.43 | 1.79 | 0.0 | 0.07 | 0.56 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.371965732,"data":"| p1-study-3 | still | 0.177 | 0.49 | 1.65 | 0.0 | 0.08 | 0.39 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.37196896,"data":"| p1-study-4 | still | 0.167 | 0.5 | 1.77 | 0.0 | 0.08 | 0.5 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371972155,"data":"| p1-study | still | 0.201 | 0.48 | 1.54 | 0.0 | 0.08 | 0.56 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.3719758,"data":"| p1-weather-2 | still | 0.149 | 0.44 | 1.74 | 0.0 | 0.08 | 0.52 | 280 |\n"}
+,{"stream_name":"stdout","time":2876.371979161,"data":"| p1-weather-3 | still | 0.162 | 0.5 | 1.39 | 0.0 | 0.08 | 0.6 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371982492,"data":"| p1-weather-4 | still | 0.175 | 0.46 | 1.8 | 0.0 | 0.07 | 0.52 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.371986147,"data":"| p1-weather | still | 0.221 | 0.47 | 1.91 | 0.0 | 0.07 | 0.58 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.37199334,"data":"| p1-weekend-2 | still | 0.191 | 0.49 | 1.83 | 0.0 | 0.07 | 0.44 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.371995791,"data":"| p1-weekend-3 | still | 0.155 | 0.49 | 1.78 | 0.0 | 0.07 | 0.53 | -40 |\n"}
+,{"stream_name":"stdout","time":2876.372007153,"data":"| p1-weekend-4 | still | 0.166 | 0.47 | 1.79 | 0.0 | 0.08 | 0.44 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372011047,"data":"| p1-weekend | still | 0.21 | 0.49 | 1.49 | 0.0 | 0.09 | 0.58 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372014868,"data":"| p2-app | still | 0.18 | 0.43 | 1.9 | 0.0 | 0.08 | 0.47 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.37201867,"data":"| p2-book | still | 0.162 | 0.49 | 1.58 | 0.0 | 0.07 | 0.45 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372022527,"data":"| p2-decision | still | 0.161 | 0.47 | 1.65 | 0.0 | 0.07 | 0.49 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372026365,"data":"| p2-event | still | 0.178 | 0.43 | 1.76 | 0.0 | 0.08 | 0.51 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372032858,"data":"| p2-goal | still | 0.174 | 0.47 | 1.73 | 0.0 | 0.07 | 0.34 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372036249,"data":"| p2-helped | still | 0.161 | 0.42 | 1.82 | 0.0 | 0.08 | 0.48 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372039502,"data":"| p2-journey | still | 0.158 | 0.45 | 1.74 | 0.0 | 0.09 | 0.56 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372042807,"data":"| p2-late | still | 0.178 | 0.47 | 1.79 | 0.0 | 0.08 | 0.46 | -160 |\n"}
+,{"stream_name":"stdout","time":2876.372046101,"data":"| p2-object | still | 0.188 | 0.44 | 1.68 | 0.0 | 0.08 | 0.42 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372049461,"data":"| p2-park | still | 0.18 | 0.48 | 1.82 | 0.0 | 0.08 | 0.43 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372052737,"data":"| p2-person | still | 0.186 | 0.46 | 1.72 | 0.0 | 0.08 | 0.34 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372056002,"data":"| p2-photo | still | 0.16 | 0.47 | 1.65 | 0.0 | 0.09 | 0.49 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372059407,"data":"| p2-place | still | 0.179 | 0.45 | 1.86 | 0.0 | 0.08 | 0.43 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372062615,"data":"| p2-shop | still | 0.166 | 0.44 | 1.49 | 0.0 | 0.08 | 0.38 | 160 |\n"}
+,{"stream_name":"stdout","time":2876.372065888,"data":"| p2-skill | still | 0.173 | 0.48 | 1.79 | 0.0 | 0.08 | 0.38 | -200 |\n"}
+,{"stream_name":"stdout","time":2876.372069184,"data":"| p3-app-2 | still | 0.181 | 0.44 | 1.97 | 0.0 | 0.08 | 0.34 | 0 |\n"}
+,{"stream_name":"stdout","time":2876.372072488,"data":"| p3-book-1 | still | 0.172 | 0.51 | 1.85 | 0.0 | 0.08 | 0.4 | -280 |\n"}
+,{"stream_name":"stdout","time":2876.372075756,"data":"| p3-book-2 | still | 0.171 | 0.44 | 1.55 | 0.0 | 0.07 | 0.3 | -240 |\n"}
+,{"stream_name":"stdout","time":2876.372078995,"data":"| p3-cities | still | 0.222 | 0.47 | 1.87 | 0.0 | 0.08 | 0.43 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372086223,"data":"| p3-decision-1 | still | 0.211 | 0.44 | 1.82 | 0.0 | 0.07 | 0.37 | -200 |\n"}
+,{"stream_name":"stdout","time":2876.372088795,"data":"| p3-decision-2 | still | 0.174 | 0.48 | 1.82 | 0.0 | 0.07 | 0.53 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372100667,"data":"| p3-education | still | 0.228 | 0.49 | 1.72 | 0.0 | 0.08 | 0.45 | 280 |\n"}
+,{"stream_name":"stdout","time":2876.372104567,"data":"| p3-environment | still | 0.217 | 0.43 | 1.71 | 0.0 | 0.07 | 0.35 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.372108781,"data":"| p3-event-2 | still | 0.171 | 0.46 | 1.77 | 0.0 | 0.09 | 0.38 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.372112185,"data":"| p3-goal-1 | still | 0.184 | 0.45 | 1.65 | 0.0 | 0.07 | 0.46 | 320 |\n"}
+,{"stream_name":"stdout","time":2876.372116208,"data":"| p3-goal-2 | still | 0.161 | 0.46 | 1.79 | 0.0 | 0.08 | 0.62 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372119958,"data":"| p3-helped-1 | still | 0.176 | 0.47 | 1.98 | 0.0 | 0.07 | 0.42 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372123286,"data":"| p3-helped-2 | still | 0.172 | 0.44 | 1.52 | 0.0 | 0.07 | 0.37 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372126603,"data":"| p3-journey-1 | still | 0.189 | 0.49 | 1.88 | 0.0 | 0.07 | 0.48 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372129862,"data":"| p3-journey-2 | still | 0.193 | 0.42 | 1.79 | 0.0 | 0.08 | 0.4 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.37213313,"data":"| p3-late-1 | still | 0.18 | 0.46 | 1.77 | 0.0 | 0.08 | 0.42 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.372136363,"data":"| p3-late-2 | still | 0.159 | 0.47 | 1.94 | 0.0 | 0.07 | 0.53 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.372139604,"data":"| p3-media | still | 0.187 | 0.5 | 1.89 | 0.0 | 0.08 | 0.39 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372145957,"data":"| p3-object-1 | still | 0.179 | 0.45 | 1.76 | 0.0 | 0.08 | 0.47 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372149387,"data":"| p3-object-2 | still | 0.181 | 0.46 | 1.68 | 0.0 | 0.07 | 0.2 | 0 |\n"}
+,{"stream_name":"stdout","time":2876.372152741,"data":"| p3-park-2 | still | 0.158 | 0.42 | 1.61 | 0.0 | 0.08 | 0.61 | 160 |\n"}
+,{"stream_name":"stdout","time":2876.37215607,"data":"| p3-person-2 | still | 0.189 | 0.48 | 1.53 | 0.0 | 0.08 | 0.36 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372159297,"data":"| p3-photo-1 | still | 0.177 | 0.5 | 1.76 | 0.0 | 0.08 | 0.49 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372162541,"data":"| p3-photo-2 | still | 0.19 | 0.45 | 1.55 | 0.0 | 0.07 | 0.33 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.37216585,"data":"| p3-place-2 | still | 0.198 | 0.46 | 1.96 | 0.0 | 0.07 | 0.48 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372169128,"data":"| p3-shop-1 | still | 0.188 | 0.45 | 1.82 | 0.0 | 0.08 | 0.55 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372172403,"data":"| p3-shop-2 | still | 0.184 | 0.48 | 1.93 | 0.0 | 0.07 | 0.34 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.372179963,"data":"| p3-skill-2 | still | 0.183 | 0.49 | 1.78 | 0.0 | 0.08 | 0.45 | 40 |\n"}
+,{"stream_name":"stdout","time":2876.372182822,"data":"| p3-tradition | still | 0.21 | 0.48 | 1.69 | 0.0 | 0.07 | 0.47 | 120 |\n"}
+,{"stream_name":"stdout","time":2876.37219401,"data":"| p3-work | still | 0.234 | 0.46 | 1.77 | 0.0 | 0.08 | 0.43 | 80 |\n"}
+,{"stream_name":"stdout","time":2876.372198166,"data":"\n"}
+,{"stream_name":"stdout","time":2876.372201708,"data":"## Averages per base look\n"}
+,{"stream_name":"stdout","time":2876.37220564,"data":"\n"}
+,{"stream_name":"stdout","time":2876.372208971,"data":"| base | avg MB | sharpness | head motion | face drift | av corr |\n"}
+,{"stream_name":"stdout","time":2876.372212647,"data":"|---|---|---|---|---|---|\n"}
+,{"stream_name":"stdout","time":2876.372215783,"data":"| still | 0.18 | 0.46 | 0.0 | 0.08 | 0.46 |\n"}
+,{"stream_name":"stdout","time":2876.37221908,"data":"\n"}
+,{"stream_name":"stdout","time":2876.37222206,"data":"## Silent base videos (reference, no new mouth)\n"}
+,{"stream_name":"stdout","time":2876.37222528,"data":"\n"}
+,{"stream_name":"stdout","time":2876.372228332,"data":"\n"}
+,{"stream_name":"stdout","time":2876.37223147,"data":"These numbers are indicators only. Watch the videos: lip-sync accuracy, mouth sharpness and facial consistency are judged by eye.\n"}
+,{"stream_name":"stdout","time":2876.385751442,"data":"p1-food-2__still.mp4\n"}
+,{"stream_name":"stdout","time":2876.401109157,"data":"p1-food-3__still.mp4\n"}
+,{"stream_name":"stdout","time":2876.408368754,"data":"p1-food-4__still.mp4\n"}
+,{"stream_name":"stdout","time":2876.41536844,"data":"p1-food__still.mp4\n"}
+,{"stream_name":"stdout","time":2876.422400185,"data":"p1-friends-2__still.mp4\n"}
+,{"stream_name":"stdout","time":2876.426676863,"data":"p1-friends-3__still.mp4\n"}
+,{"stream_name":"stderr","time":2879.049208163,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2879.049238284,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2879.232341067,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2879.232400651,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2880.025036857,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2880.126960028,"data":"[NbConvertApp] Writing 1441355 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2882.663837767,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2883.226868799,"data":"[NbConvertApp] Writing 1715435 bytes to __results__.html\n"}
+]

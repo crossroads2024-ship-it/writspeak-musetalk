@@ -31,7 +31,6 @@ helper models, so each one is listed separately.
   code change would be needed), and the face detector could be swapped for an Apache/MIT one. I have NOT done (c); it is a later, optional step.
 - The 77 output videos are ordinary MP4 files. Generated output does not itself carry the MIT/Apache licence text, but attribution to the projects
   should appear in your credits/notices page (see NOTICE below).
-- The portrait is an invented person generated with Jogenesis (nano-banana-2-1). Check Jogenesis/KIE terms for commercial use of generated images separately; I did not.
 
 ## Kaggle (free GPU) terms
 Free GPU quota is reported by third-party sources as about 30 GPU-hours/week, 16 GB T4/P100. Phone verification is required to enable GPU and internet.
